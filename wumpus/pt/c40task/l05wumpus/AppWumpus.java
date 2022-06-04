@@ -35,7 +35,7 @@ public class AppWumpus {
       if (movements != null) {
     	  System.out.println("=== Movimentos");
     	  System.out.println(movements);
-          caverna.imprime("Alcebiades", controle.getScore());
+          caverna.imprime("Jonathan", controle.getScore());
     	  for(int i = 0; i < movements.length() && controle.getEstadoJogo(); i++){
              controle.agir(movements.charAt(i));
              tk.writeBoard(caverna.toMatriz(), controle.getScore(), controle.getcEstado());
