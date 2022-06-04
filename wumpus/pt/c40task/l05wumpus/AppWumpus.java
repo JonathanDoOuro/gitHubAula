@@ -68,7 +68,7 @@ public class AppWumpus {
          }
       }
       
-      /*System.out.println("=== Caverna Intermediaria");
+      System.out.println("=== Caverna Intermediaria");
       char partialCave[][] = {
          {'#', '#', 'b', '-'},
          {'#', 'b', '-', '-'},
@@ -89,7 +89,7 @@ public class AppWumpus {
       score = -1210;
       status = 'n'; // 'w' para venceu; 'n' para perdeu; 'x' intermediárias
       tk.writeBoard(finalCave, score, status);
-      */
+      
       tk.stop();
    }
 
